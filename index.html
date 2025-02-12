@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply for MBBS abroad. Explore top countries, admission process, and eligibility. Get expert guidance.">
+    <title>Study MBBS Abroad</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXX-X');
+    </script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900 transition-all duration-300" id="themeBody">
+    
+    <!-- Banner Section -->
+    <section class="bg-blue-600 text-white text-center py-20 bg-cover bg-center  hover:scale-1250" style="background-image: url('https://source.unsplash.com/1600x900/?university,students');">
+        <h1 class="text-5xl font-bold ">Apply Now for MBBS Abroad</h1>
+        <p class="mt-4 text-xl">Start your medical career with world-class education.</p>
+        <a href="#lead-form" class="mt-6 inline-block bg-white text-blue-600 font-bold py-4 px-10 text-xl rounded shadow-lg hover:bg-gray-200">Apply Now</a>
+    </section>
+    
+    <!-- Why Study MBBS Abroad -->
+    <section class="container mx-auto my-10 p-8 bg-white shadow-lg rounded-lg transition-all duration-300" id="contentBox">
+        <h2 class="text-3xl font-bold mb-6">Why Study MBBS Abroad?</h2>
+        <ul class="list-disc pl-6 text-lg space-y-2">
+            <li>Affordable tuition fees.</li>
+            <li>Globally recognized degrees.</li>
+            <li>High-quality education.</li>
+            <li>International exposure.</li>
+        </ul>
+    </section>
+        <!-- Top Countries -->
+    <section class="container mx-auto my-10 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold mb-6">Top Countries</h2>
+        <div class="country">
+            <ol  id="Country" ></ol>
+        </div>
+    </section>
+        <!-- Admission Process & Eligibility -->
+    <section class="container mx-auto my-10 p-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold mb-6">Admission Process & Eligibility</h2>
+        <div class="flex align-center gap-10 flex-col">
+            <div>
+                <p class="text-lg font-bold">The eligibility section outlines the necessary qualifications and requirements for prospective students. It includes:</p>
+                <ol class="list-decimal pl-6 mt-4 space-y-2 text-lg">
+                    <li>Minimum Educational Qualification: High school diploma or equivalent with required science subjects..</li>
+                    <li>Age Requirement: Minimum age of 17 years at the time of application.</li>
+                    <li>Language Proficiency: English proficiency (IELTS/TOEFL may be required for some countries).</li>
+                    <li>Entrance Exams: Some countries require passing an entrance exam (e.g., NEET for Indian students).</li>
+                </ol>
+            </div>
+            <div>
+                <p class="text-lg font-bold">Follow these steps to secure your MBBS admission:</p>
+                <ol class="list-decimal pl-6 mt-4 space-y-2 text-lg">
+                    <li>Check eligibility criteria.</li>
+                    <li>Submit application form.</li>
+                    <li>Receive admission letter.</li>
+                    <li>Apply for visa.</li>
+                    <li>Fly to your chosen university.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    
+    <section id="lead-form" class="container mx-auto my-10 p-8 bg-white shadow-lg rounded-lg transition-all duration-300" id="formBox">
+        <h2 class="text-3xl font-bold mb-6">Get Expert Guidance</h2>
+        <form id="contactForm" class="space-y-4">
+            <input type="text" id="name" class="w-full p-3 border rounded-lg bg-gray-100 text-gray-900" placeholder="Full Name" required>
+            <input type="email" id="email" class="w-full p-3 border rounded-lg bg-gray-100 text-gray-900" placeholder="Email" required>
+            <input type="tel" id="phone" class="w-full p-3 border rounded-lg bg-gray-100 text-gray-900" placeholder="Phone" required>
+            <select id="country" class="w-full p-3 border rounded-lg bg-gray-100 text-gray-900" required>
+                <option value="">Select Country Preference</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <button type="submit" class="w-full bg-blue-600 text-white py-4 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700">Submit</button>
+        </form>
+        <p id="formMessage" class="mt-4 text-green-600 hidden font-semibold">Thank you! We will contact you soon.</p>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
